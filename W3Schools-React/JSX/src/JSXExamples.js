@@ -1,3 +1,9 @@
+const x = 5;
+let text = "Goodbye";
+if (x < 10) {
+  text = "Hello";
+}
+
 function JSXExamples() {
   return (
     <>
@@ -13,6 +19,8 @@ function JSXExamples() {
       <input type="text" name="test-input" />
 
       <h3 className="myclass">className == class</h3>
+
+      <p>Conditions - if statements: {text}</p>
     </>
   );
 }
