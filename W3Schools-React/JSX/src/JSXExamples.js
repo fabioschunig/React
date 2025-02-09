@@ -11,6 +11,8 @@ function JSXExamples() {
 
       <label>Test Input</label>
       <input type="text" name="test-input" />
+
+      <h3 className="myclass">className == class</h3>
     </>
   );
 }
