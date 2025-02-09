@@ -11,6 +11,10 @@ root.render(
   </React.StrictMode>
 );
 
+const myElement = <h1>I Love JSX!</h1>;
+const JSXexamples = ReactDOM.createRoot(document.getElementById('jsx-examples'));
+JSXexamples.render(myElement);
+
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
