@@ -8,6 +8,9 @@ function JSXExamples() {
         <li>Bananas</li>
         <li>Cherries</li>
       </ul>
+
+      <label>Test Input</label>
+      <input type="text" name="test-input" />
     </>
   );
 }
