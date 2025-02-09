@@ -25,4 +25,12 @@ But in order to use React in production, you need npm and Node.js installed.
 If you have npx and Node.js installed, you can create a React application by using create-react-app.
 Run this command to create a React application named my-react-app:
 
-> npx create-react-app my-react-app
+```
+$ npx create-react-app my-react-app
+```
+
+Run this command to run the React application my-react-app:
+
+```
+$ npm start
+```
